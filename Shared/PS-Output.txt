@@ -1,0 +1,185 @@
+PS C:\sc91> Install-SitecoreConfiguration -Path .\Prerequisites.json -verbose
+VERBOSE: Invoke-ReadJsonConfigFunction
+VERBOSE: Reading: C:\sc91\Prerequisites.json
+                                                                                                                     ************************************
+                                                                                                                          Sitecore Install Framework
+                                                                                                                               Version - 2.0.0
+                                                                                                                     ************************************
+
+
+WorkingDirectory       : C:\sc91
+InformationAction      : Continue
+WhatIf                 : False
+Verbose                : Continue
+Debug                  : SilentlyContinue
+AutoRegisterExtensions : False
+Configuration          : C:\sc91\Prerequisites.json
+ErrorAction            : Stop
+WarningAction          : Continue
+
+
+
+
+VERBOSE: Resetting registered extensions
+VERBOSE: Registering Task extension 'AddWebFeatureSSL' => 'Invoke-AddWebFeatureSSLTask'
+VERBOSE: Registering ConfigFunction extension 'And' => 'Invoke-AndConfigFunction'
+VERBOSE: Registering Task extension 'AppPool' => 'Invoke-AppPoolTask'
+VERBOSE: Registering ConfigFunction extension 'CheckInstalledSoftware' => 'Invoke-CheckInstalledSoftwareConfigFunction'
+VERBOSE: Registering Task extension 'Command' => 'Invoke-CommandTask'
+VERBOSE: Registering ConfigFunction extension 'Concat' => 'Invoke-ConcatConfigFunction'
+VERBOSE: Registering Task extension 'Copy' => 'Invoke-CopyTask'
+VERBOSE: Registering Task extension 'CreateService' => 'Invoke-CreateServiceTask'
+VERBOSE: Registering Task extension 'DownloadFile' => 'Invoke-DownloadFileTask'
+VERBOSE: Registering Task extension 'EnsurePath' => 'Invoke-EnsurePathTask'
+VERBOSE: Registering ConfigFunction extension 'Environment' => 'Invoke-EnvironmentConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'Equal' => 'Invoke-EqualConfigFunction'
+VERBOSE: Registering Task extension 'FilePermissions' => 'Invoke-FilePermissionsTask'
+VERBOSE: Registering ConfigFunction extension 'GetCertificate' => 'Invoke-GetCertificateConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'GetCertificateThumbprint' => 'Invoke-GetCertificateThumbprintConfigFunction'
+VERBOSE: Registering Task extension 'HostHeader' => 'Invoke-HostHeaderTask'
+VERBOSE: Registering Task extension 'HttpRequest' => 'Invoke-HttpRequestTask'
+VERBOSE: Registering ConfigFunction extension 'If' => 'Invoke-IfConfigFunction'
+VERBOSE: Registering Task extension 'IISConfiguration' => 'Invoke-IISConfigurationTask'
+VERBOSE: Registering Task extension 'InsertXml' => 'Invoke-InsertXmlTask'
+VERBOSE: Registering Task extension 'InstallPSModule' => 'Invoke-InstallPSModuleTask'
+VERBOSE: Registering Task extension 'InstallSitecoreConfiguration' => 'Invoke-InstallSitecoreConfigurationTask'
+VERBOSE: Registering Task extension 'IoXml' => 'Invoke-IoXmlTask'
+VERBOSE: Registering ConfigFunction extension 'Join' => 'Invoke-JoinConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'JoinPath' => 'Invoke-JoinPathConfigFunction'
+VERBOSE: Registering Task extension 'ManageAppPool' => 'Invoke-ManageAppPoolTask'
+VERBOSE: Registering Task extension 'ManageService' => 'Invoke-ManageServiceTask'
+VERBOSE: Registering Task extension 'ManageSolrConfig' => 'Invoke-ManageSolrConfigTask'
+VERBOSE: Registering Task extension 'ManageSolrCore' => 'Invoke-ManageSolrCoreTask'
+VERBOSE: Registering Task extension 'ManageSolrSchema' => 'Invoke-ManageSolrSchemaTask'
+VERBOSE: Registering Task extension 'ManageWebsite' => 'Invoke-ManageWebsiteTask'
+VERBOSE: Registering ConfigFunction extension 'Module' => 'Invoke-ModuleConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'NewPSCredential' => 'Invoke-NewPSCredentialConfigFunction'
+VERBOSE: Registering Task extension 'NewRootCertificate' => 'Invoke-NewRootCertificateTask'
+VERBOSE: Registering Task extension 'NewSignedCertificate' => 'Invoke-NewSignedCertificateTask'
+VERBOSE: Registering ConfigFunction extension 'Not' => 'Invoke-NotConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'Or' => 'Invoke-OrConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'RandomString' => 'Invoke-RandomStringConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'ReadJson' => 'Invoke-ReadJsonConfigFunction'
+VERBOSE: Registering Task extension 'RemoveAppPool' => 'Invoke-RemoveAppPoolTask'
+VERBOSE: Registering Task extension 'RemoveService' => 'Invoke-RemoveServiceTask'
+VERBOSE: Registering Task extension 'RemoveSqlDatabase' => 'Invoke-RemoveSqlDatabaseTask'
+VERBOSE: Registering Task extension 'RemoveWebsite' => 'Invoke-RemoveWebsiteTask'
+VERBOSE: Registering Task extension 'RemoveXml' => 'Invoke-RemoveXmlTask'
+VERBOSE: Registering ConfigFunction extension 'ResolveCertificatePath' => 'Invoke-ResolveCertificatePathConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'ResolvePath' => 'Invoke-ResolvePathConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'RestAuthentication' => 'Invoke-RestAuthenticationConfigFunction'
+VERBOSE: Registering Task extension 'SetXml' => 'Invoke-SetXmlTask'
+VERBOSE: Registering Task extension 'SitecoreUrl' => 'Invoke-SitecoreUrlTask'
+VERBOSE: Registering ConfigFunction extension 'SqlConnectionString' => 'Invoke-SqlConnectionStringConfigFunction'
+VERBOSE: Registering Task extension 'TransformXmlDoc' => 'Invoke-TransformXmlDocTask'
+VERBOSE: Registering Task extension 'Unpack' => 'Invoke-UnpackTask'
+VERBOSE: Registering ConfigFunction extension 'ValidateCount' => 'Invoke-ValidateCountConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'ValidateLength' => 'Invoke-ValidateLengthConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'ValidateNotNull' => 'Invoke-ValidateNotNullConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'ValidateNotNullOrEmpty' => 'Invoke-ValidateNotNullOrEmptyConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'ValidatePattern' => 'Invoke-ValidatePatternConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'ValidateRange' => 'Invoke-ValidateRangeConfigFunction'
+VERBOSE: Registering ConfigFunction extension 'ValidateSet' => 'Invoke-ValidateSetConfigFunction'
+VERBOSE: Registering Task extension 'WebBinding' => 'Invoke-WebBindingTask'
+VERBOSE: Registering Task extension 'WebDeploy' => 'Invoke-WebDeployTask'
+VERBOSE: Registering Task extension 'WebRequest' => 'Invoke-WebRequestTask'
+VERBOSE: Registering Task extension 'WebsiteClientCert' => 'Invoke-WebsiteClientCertTask'
+VERBOSE: Registering Task extension 'WebSite' => 'Invoke-WebSiteTask'
+VERBOSE: Registering ConfigFunction extension 'WindowsFeature' => 'Invoke-WindowsFeatureConfigFunction'
+VERBOSE: Registering Task extension 'SitecoreConfiguration' => 'Install-SitecoreConfiguration'
+VERBOSE: Registering Task extension 'ImportCertificate' => 'Import-Certificate'
+VERBOSE: Populating RepositorySourceLocation property for module SqlServer.
+VERBOSE: Loading module from path 'C:\Program Files\WindowsPowerShell\Modules\SqlServer\21.1.18068\SqlServer.psm1'.
+VERBOSE: Registering Task extension 'InvokeSqlcmd' => 'SQLServer\Invoke-Sqlcmd'
+VERBOSE: Registering ConfigFunction extension 'InvokeSqlcmd' => 'SQLServer\Invoke-Sqlcmd'
+VERBOSE: Registering Task extension 'InstallModule' => 'Install-Module'
+VERBOSE: Registering Task extension 'EnableWindowsOptionalFeature' => 'Enable-WindowsOptionalFeature'
+VERBOSE: Registering Task extension 'StartProcess' => 'Start-Process'
+VERBOSE: Registering Task extension 'WriteOutput' => 'Write-Output'
+VERBOSE: Registering ConfigFunction extension 'GetModule' => 'Get-Module'
+VERBOSE: Registering ConfigFunction extension 'GetPackage' => 'Get-Package'
+VERBOSE: Registering ConfigFunction extension 'GetItemPropertyValue' => 'Get-ItemPropertyValue'
+VERBOSE: Registering ConfigFunction extension 'TestPath' => 'Test-Path'
+VERBOSE: Registering task parameter map
+VERBOSE: WarningAction => Continue
+VERBOSE: Verbose => Continue
+VERBOSE: InformationAction => Continue
+VERBOSE: Debug => SilentlyContinue
+VERBOSE: ErrorAction => Stop
+VERBOSE: WhatIf => False
+VERBOSE: Resolving Task extension 'DownloadFile'
+VERBOSE: Resolved 'Invoke-DownloadFileTask'
+VERBOSE: Resolving Task extension 'StartProcess'
+VERBOSE: Resolved 'Start-Process'
+VERBOSE: Resolving Task extension 'DownloadFile'
+VERBOSE: Resolved 'Invoke-DownloadFileTask'
+VERBOSE: Resolving Task extension 'StartProcess'
+VERBOSE: Resolved 'Start-Process'
+VERBOSE: Resolving Task extension 'InstallModule'
+VERBOSE: Resolved 'Install-Module'
+VERBOSE: Resolving Task extension 'EnableWindowsOptionalFeature'
+VERBOSE: Resolved 'Enable-WindowsOptionalFeature'
+VERBOSE: Resolving Task extension 'DownloadFile'
+VERBOSE: Resolved 'Invoke-DownloadFileTask'
+VERBOSE: Resolving Task extension 'StartProcess'
+VERBOSE: Resolved 'Start-Process'
+VERBOSE: Resolving Task extension 'StartProcess'
+VERBOSE: Resolved 'Start-Process'
+VERBOSE: Resolving Task extension 'DownloadFile'
+VERBOSE: Resolved 'Invoke-DownloadFileTask'
+VERBOSE: Resolving Task extension 'StartProcess'
+VERBOSE: Resolved 'Start-Process'
+VERBOSE: Resolving Task extension 'DownloadFile'
+VERBOSE: Resolved 'Invoke-DownloadFileTask'
+VERBOSE: Resolving Task extension 'StartProcess'
+VERBOSE: Resolved 'Start-Process'
+VERBOSE: Resolving Task extension 'DownloadFile'
+VERBOSE: Resolved 'Invoke-DownloadFileTask'
+VERBOSE: Resolving Task extension 'StartProcess'
+VERBOSE: Resolved 'Start-Process'
+VERBOSE: Resolving Task extension 'DownloadFile'
+VERBOSE: Resolved 'Invoke-DownloadFileTask'
+VERBOSE: Resolving Task extension 'StartProcess'
+VERBOSE: Resolved 'Start-Process'
+VERBOSE: Resolving Task extension 'DownloadFile'
+VERBOSE: Resolved 'Invoke-DownloadFileTask'
+VERBOSE: Resolving Task extension 'StartProcess'
+VERBOSE: Resolved 'Start-Process'
+VERBOSE: Resolving Task extension 'DownloadFile'
+VERBOSE: Resolved 'Invoke-DownloadFileTask'
+VERBOSE: Resolving Task extension 'StartProcess'
+VERBOSE: Resolved 'Start-Process'
+VERBOSE: Resolving Task extension 'DownloadFile'
+VERBOSE: Resolved 'Invoke-DownloadFileTask'
+VERBOSE: Resolving Task extension 'StartProcess'
+VERBOSE: Resolved 'Start-Process'
+VERBOSE: Resolving Task extension 'DownloadFile'
+VERBOSE: Resolved 'Invoke-DownloadFileTask'
+VERBOSE: Resolving Task extension 'StartProcess'
+VERBOSE: Resolved 'Start-Process'
+VERBOSE: Resolving Task extension 'WriteOutput'
+VERBOSE: Resolved 'Write-Output'
+VERBOSE: Resolving ConfigFunction extension 'TestPath'
+VERBOSE: Resolved 'Test-Path'
+VERBOSE: Resolving ConfigFunction extension 'Environment'
+VERBOSE: Resolved 'Invoke-EnvironmentConfigFunction'
+VERBOSE: Resolving ConfigFunction extension 'if'
+WARNING: Validation failed for parameter 'TempLocation' = 'SIF-Default'. Exception: Exception calling "Validate" with "2" argument(s): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Unable to
+parse [TestPath(variable('Temp.Location'))] - Exception calling "Evaluate" with "2" argument(s): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Unable to parse
+[if(variable('Test.Temp.Location'),Environment('Temp'),parameter('TempLocation'))] - No registration found for extension 'if' of type 'ConfigFunction'."".
+Install-SitecoreConfiguration : Parameters validation has failed.
+At line:1 char:1
++ Install-SitecoreConfiguration -Path .\Prerequisites.json -verbose
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,Install-SitecoreConfiguration
+
+[TIME] 00:00:00
+Parameters validation has failed.
+At C:\Program Files\WindowsPowerShell\Modules\SitecoreInstallFramework\2.0.0\Public\Install-SitecoreConfiguration.ps1:474 char:21
++                     throw "Parameters validation has failed."
++                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Parameters validation has failed.:String) [], RuntimeException
+    + FullyQualifiedErrorId : Parameters validation has failed.
+
+PS C:\sc91>
