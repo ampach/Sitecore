@@ -1,0 +1,54 @@
+{
+  "context": {
+    "pageEditing": false,
+    "site": { "name": "XamarinApp" },
+    "language": "en",
+    "currentContact": null
+  },
+  "name": "Family service plan",
+  "displayName": "Family service plan",
+  "fields": {
+    "ServiceDiscount": {
+      "value": "0",
+      "editable": "0"
+    },
+    "ServiceVideo": {
+      "value": "https://www.youtube.com/embed/vbRqe6E_YJ8?rel=0&amp;controls=0&amp;showinfo=0",
+      "editable": "https://www.youtube.com/embed/vbRqe6E_YJ8?rel=0&amp;amp;controls=0&amp;amp;showinfo=0"
+    },
+    "TeaserTitle": {
+      "value": "Personalized Family Service plan ",
+      "editable": "Personalized Family Service plan "
+    },
+    "TeaserImage": {
+      "value": {
+        "src": "/-/media/Images/Demo/p90171463_highres.jpg?h=1600&amp;la=en&amp;w=2400&amp;hash=4EA2C143B35273EFAA12A3DED50CD640DD66D832",
+        "alt": "bmw",
+        "width": "2400",
+        "height": "1600"
+      },
+      "editable": "<img src=\"/-/media/Images/Demo/p90171463_highres.jpg?h=1600&amp;la=en&amp;w=2400&amp;hash=4EA2C143B35273EFAA12A3DED50CD640DD66D832\" alt=\"bmw\" width=\"2400\" height=\"1600\" />"
+    },
+    "ServiceTitle": {
+      "value": "Personalized Family Service plan ",
+      "editable": "Personalized Family Service plan "
+    },
+    "ServiceDescription": {
+      "value": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+      "editable": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+    }
+  },
+  "databaseName": "master",
+  "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+  "languageName": "en",
+  "layoutId": "9fa676bf-2900-4bf8-9e64-f10cb7ce3fd0",
+  "templateId": "e43f1b1b-9f28-42ac-bac4-04ad24a02bce",
+  "templateName": "Service Screen",
+  "placeholders": [
+    {
+      "name": "Main",
+      "path": "Main",
+      "elements": []
+    }
+  ]
+}

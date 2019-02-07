@@ -1,0 +1,173 @@
+{
+  "context": {
+    "pageEditing": false,
+    "site": { "name": "XamarinApp" },
+    "language": "en",
+    "currentContact": null
+  },
+  "name": "Home",
+  "displayName": "Home",
+  "fields": {
+    "Metadata Keywords": {
+      "value": "",
+      "editable": ""
+    },
+    "Metadata Description": {
+      "value": "",
+      "editable": ""
+    },
+    "Browser Title": {
+      "value": "XamarinApp",
+      "editable": "XamarinApp"
+    }
+  },
+  "databaseName": "master",
+  "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+  "languageName": "en",
+  "layoutId": "9fa676bf-2900-4bf8-9e64-f10cb7ce3fd0",
+  "templateId": "651b5528-e462-4dab-b5e1-7b3a63f54edd",
+  "templateName": "Homepage",
+  "placeholders": [
+    {
+      "name": "Main",
+      "path": "Main",
+      "elements": [
+        {
+          "componentName": "serviceScreen",
+          "renderingName": "Service Screen",
+          "renderingParams": {},
+          "uid": "261adcfd-6ca7-4d60-aa37-d92a11c49594",
+          "dataSource": "{9F2C1F61-FE87-4BC0-B223-8289A81912C1}",
+          "placeholders": [],
+          "name": "code",
+          "type": "data/json",
+          "contents": {
+            "path": "/special service plan",
+            "fields": {
+              "ServiceDiscount": {
+                "value": "0",
+                "editable": "0"
+              },
+              "ServiceVideo": {
+                "value": "https://www.youtube.com/embed/vbRqe6E_YJ8?rel=0&amp;controls=0&amp;showinfo=0",
+                "editable": "https://www.youtube.com/embed/vbRqe6E_YJ8?rel=0&amp;amp;controls=0&amp;amp;showinfo=0"
+              },
+              "TeaserTitle": {
+                "value": "Special Service plan updated",
+                "editable": "Special Service plan updated"
+              },
+              "TeaserImage": {
+                "value": {
+                  "src": "/-/media/Images/Demo/2016_bmw_m6_gt3-wide.jpg?h=1600&amp;la=en&amp;w=2560&amp;hash=0EA5FD391FEA95FB6321F4A05CA85296C2863613",
+                  "alt": "bmw",
+                  "width": "2560",
+                  "height": "1600"
+                },
+                "editable": "<img src=\"/-/media/Images/Demo/2016_bmw_m6_gt3-wide.jpg?h=1600&amp;la=en&amp;w=2560&amp;hash=0EA5FD391FEA95FB6321F4A05CA85296C2863613\" alt=\"bmw\" width=\"2560\" height=\"1600\" />"
+              },
+              "ServiceTitle": {
+                "value": "Special Service plan",
+                "editable": "Special Service plan"
+              },
+              "ServiceDescription": {
+                "value": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+                "editable": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+              }
+            }
+          },
+          "attributes": { "type": "data/json" }
+        },
+        {
+          "componentName": "serviceScreen",
+          "renderingName": "Service Screen",
+          "renderingParams": {},
+          "uid": "590b698d-6889-405f-8561-af4463a5faa6",
+          "dataSource": "{901FBA52-2503-4D68-87BC-09C990262DBD}",
+          "placeholders": [],
+          "name": "code",
+          "type": "data/json",
+          "contents": {
+            "path": "/road service care",
+            "fields": {
+              "ServiceDiscount": {
+                "value": "0",
+                "editable": "0"
+              },
+              "ServiceVideo": {
+                "value": "https://www.youtube.com/embed/vbRqe6E_YJ8?rel=0&amp;controls=0&amp;showinfo=0",
+                "editable": "https://www.youtube.com/embed/vbRqe6E_YJ8?rel=0&amp;amp;controls=0&amp;amp;showinfo=0"
+              },
+              "TeaserTitle": {
+                "value": "Road Service care",
+                "editable": "Road Service care"
+              },
+              "TeaserImage": {
+                "value": {
+                  "src": "/-/media/Images/Demo/2014-bmw-m3-white-wallpaper-1.jpg?h=1080&amp;la=en&amp;w=1920&amp;hash=E9620F1DC4FBE17F8EF5EEA52EDC69B6CB6C4A43",
+                  "alt": "bmw",
+                  "width": "1920",
+                  "height": "1080"
+                },
+                "editable": "<img src=\"/-/media/Images/Demo/2014-bmw-m3-white-wallpaper-1.jpg?h=1080&amp;la=en&amp;w=1920&amp;hash=E9620F1DC4FBE17F8EF5EEA52EDC69B6CB6C4A43\" alt=\"bmw\" width=\"1920\" height=\"1080\" />"
+              },
+              "ServiceTitle": {
+                "value": "Road Service care",
+                "editable": "Road Service care"
+              },
+              "ServiceDescription": {
+                "value": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+                "editable": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+              }
+            }
+          },
+          "attributes": { "type": "data/json" }
+        },
+        {
+          "componentName": "serviceScreen",
+          "renderingName": "Service Screen",
+          "renderingParams": {},
+          "uid": "89fa1abf-67a4-4442-986e-e5405480cc2c",
+          "dataSource": "{AE818ABC-C932-41D6-A003-0773EF8A10C4}",
+          "placeholders": [],
+          "name": "code",
+          "type": "data/json",
+          "contents": {
+            "path": "/scheduled service",
+            "fields": {
+              "ServiceDiscount": {
+                "value": "0",
+                "editable": "0"
+              },
+              "ServiceVideo": {
+                "value": "https://www.youtube.com/embed/vbRqe6E_YJ8?rel=0&amp;controls=0&amp;showinfo=0",
+                "editable": "https://www.youtube.com/embed/vbRqe6E_YJ8?rel=0&amp;amp;controls=0&amp;amp;showinfo=0"
+              },
+              "TeaserTitle": {
+                "value": "Scheduled service",
+                "editable": "Scheduled service"
+              },
+              "TeaserImage": {
+                "value": {
+                  "src": "/-/media/Images/Demo/18090ac2b2e5c35e4c0779da2d4e5e7739f89337.jpg?h=1080&amp;la=en&amp;w=1920&amp;hash=DBCF06E93867F1B907DCF0F576771213C887329A",
+                  "alt": "bmw",
+                  "width": "1920",
+                  "height": "1080"
+                },
+                "editable": "<img src=\"/-/media/Images/Demo/18090ac2b2e5c35e4c0779da2d4e5e7739f89337.jpg?h=1080&amp;la=en&amp;w=1920&amp;hash=DBCF06E93867F1B907DCF0F576771213C887329A\" alt=\"bmw\" width=\"1920\" height=\"1080\" />"
+              },
+              "ServiceTitle": {
+                "value": "Scheduled service",
+                "editable": "Scheduled service"
+              },
+              "ServiceDescription": {
+                "value": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+                "editable": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+              }
+            }
+          },
+          "attributes": { "type": "data/json" }
+        }
+      ]
+    }
+  ]
+}
