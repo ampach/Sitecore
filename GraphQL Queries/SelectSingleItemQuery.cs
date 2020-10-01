@@ -16,7 +16,7 @@ public class SelectSingleItemQuery : RootFieldType<ItemInterfaceGraphType, Item>
 	public SelectSingleItemQuery()
 		: base("selectSingleItemQuery", "Allows querying items from the content tree beneath specific site")
 	{
-		var queryArgumentArray = new QueryArgument[4];
+		var queryArgumentArray = new QueryArgument[3];
 		
 		var languageArgument = new QueryArgument<StringGraphType>
 		{
@@ -30,18 +30,13 @@ public class SelectSingleItemQuery : RootFieldType<ItemInterfaceGraphType, Item>
 			Description = "The item version to request (if not set, latest version is returned)"
 		};
 		queryArgumentArray[1] = versionArgument;
-		var siteArgument = new QueryArgument<StringGraphType>
-		{
-			Name = "site",
-			Description = "The site name to request (if not set, will be used context one)"
-		};
-		queryArgumentArray[2] = siteArgument;
+		
 		var queryArgument = new QueryArgument<StringGraphType>
 		{
 			Name = "query",
 			Description = "The Sitecore query"
 		};
-		queryArgumentArray[3] = queryArgument;
+		queryArgumentArray[2] = queryArgument;
 		this.Arguments = new QueryArguments(queryArgumentArray);
 	}
 
